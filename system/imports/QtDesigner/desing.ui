@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>573</width>
+    <height>443</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Entrar - Super Sete</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="Qwidget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>218</x>
+      <y>9</y>
+      <width>351</width>
+      <height>425</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>80</y>
+       <width>60</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Cooper Black&quot;;color:#3CB371</string>
+     </property>
+     <property name="text">
+      <string>LOGIN</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>150</y>
+       <width>150</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:#3CB371;
+font: 12pt &quot;Wide Latin&quot;;
+text-decoration: underline;</string>
+     </property>
+     <property name="text">
+      <string>_______________________</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>230</y>
+       <width>150</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:#3CB371;
+font: 12pt &quot;Wide Latin&quot;;
+text-decoration: underline;</string>
+     </property>
+     <property name="text">
+      <string>_______________________</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="img_email_login">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>120</y>
+       <width>60</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image:url(&quot;email.png&quot;);
+background-size: cover;
+background-repeat: no-repeat;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="img_senha_login">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>200</y>
+       <width>60</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image:url(&quot;senha.png&quot;);
+background-size: cover;
+background-repeat: no-repeat;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_login">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>310</y>
+       <width>100</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;
+font: 10pt &quot;Cooper Black&quot;;
+background:#5F9EA0</string>
+     </property>
+     <property name="text">
+      <string>➲ ENTRAR</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Email_login">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>144</y>
+       <width>150</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:5px;
+background:white</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Senha_login">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>224</y>
+       <width>150</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:5px;
+background:white</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>121</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:#363636</string>
+     </property>
+     <property name="text">
+      <string>E-mail</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_13">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>201</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:#363636</string>
+     </property>
+     <property name="text">
+      <string>Senha</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Excecoes_login">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>119</x>
+       <y>284</y>
+       <width>131</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:1px; background-color: transparent;
+</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_sobre">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>11</y>
+       <width>40</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image:url(&quot;info.png&quot;);
+background-size: cover;
+background-repeat: no-repeat;
+border-radius:5px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>32</width>
+       <height>32</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="fundo_login">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>354</width>
+       <height>426</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <zorder>fundo_login</zorder>
+    <zorder>btn_sobre</zorder>
+    <zorder>label_2</zorder>
+    <zorder>label_6</zorder>
+    <zorder>label_7</zorder>
+    <zorder>img_email_login</zorder>
+    <zorder>img_senha_login</zorder>
+    <zorder>btn_login</zorder>
+    <zorder>Email_login</zorder>
+    <zorder>Senha_login</zorder>
+    <zorder>label_12</zorder>
+    <zorder>label_13</zorder>
+    <zorder>Excecoes_login</zorder>
+   </widget>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>9</y>
+      <width>211</width>
+      <height>425</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:#363636;
+background-size:cover;</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>30</y>
+       <width>110</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Cooper Black&quot;;color:#3CB371</string>
+     </property>
+     <property name="text">
+      <string>CADASTRAR</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>105</y>
+       <width>140</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:#3CB371;
+font: 12pt &quot;Wide Latin&quot;;
+text-decoration: underline;</string>
+     </property>
+     <property name="text">
+      <string>_______________________</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>170</y>
+       <width>140</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:#3CB371;
+font: 12pt &quot;Wide Latin&quot;;
+text-decoration: underline;</string>
+     </property>
+     <property name="text">
+      <string>_______________________</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>240</y>
+       <width>140</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:#3CB371;
+font: 12pt &quot;Wide Latin&quot;;
+text-decoration: underline;</string>
+     </property>
+     <property name="text">
+      <string>_______________________</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_cadastrar">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>310</y>
+       <width>100</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;
+font: 10pt &quot;Cooper Black&quot;;
+background:#5F9EA0</string>
+     </property>
+     <property name="text">
+      <string>FINALIZAR</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="img_nome">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>80</y>
+       <width>60</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image:url(&quot;user.png&quot;);
+background-size: cover;
+background-repeat: no-repeat;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="img_email">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>150</y>
+       <width>60</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image:url(&quot;email.png&quot;);
+background-size: cover;
+background-repeat: no-repeat;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="img_senha">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>220</y>
+       <width>60</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image:url(&quot;senha.png&quot;);
+background-size: cover;
+background-repeat: no-repeat;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Nome_cadastro">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>100</y>
+       <width>141</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:5px;
+background:white</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Email_cadastro">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>165</y>
+       <width>141</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:5px;
+background:white</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Senha_cadastro">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>235</y>
+       <width>141</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:5px;
+background:white</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>143</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>E-mail</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>213</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Senha</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>79</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Nome</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Excecoes">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>59</x>
+       <y>280</y>
+       <width>150</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:1px; color:red;</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
