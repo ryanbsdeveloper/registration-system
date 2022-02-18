@@ -19,3 +19,4 @@ Ao fazer o **login** o sitema exibira uma tela verde de "VOCÊ LOGOU" pois é so
 3. Clone o repositório, ou faça o download em arquivo zip.
 5. Abra o repositório em um editor de codigo.
 6. execute o arquivo main.py
+
